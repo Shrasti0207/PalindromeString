@@ -1,9 +1,9 @@
 import scala.util.Try
 
 object PalindromeString extends App {
-  def checkPalindrome(str:String)={
+  def checkPalindrome(inputString:String)={
     Try{
-      if(str==str.reverse)
+      if(inputString==inputString.reverse)
         println("Yes")
       else
         println("No")
